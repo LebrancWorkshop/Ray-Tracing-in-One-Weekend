@@ -1,0 +1,2 @@
+genppm:
+	./main > main.ppm 
