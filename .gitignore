@@ -1,7 +1,10 @@
 *
-!*lab*
+!lab*
 !.gitignore 
 !Makefile 
-!*.cpp
-!*.ppm 
-!*.png 
+!**/*.cpp
+!**/*.ppm 
+!**/*.png 
+!javascript 
+!cpp
+!go
