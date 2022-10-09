@@ -1,0 +1,9 @@
+P3 
+<Number of Columns> <Number of Rows> 
+<Maximum Color Value> 
+<R1 G1 B1>
+<R2 G2 B2>
+.
+.
+.
+<Rn Gn Bn> 

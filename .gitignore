@@ -1,10 +1,1 @@
-*
-!lab*
-!.gitignore 
-!Makefile 
-!**/*.cpp
-!**/*.ppm 
-!**/*.png 
-!javascript 
-!cpp
-!go
+.vscode 

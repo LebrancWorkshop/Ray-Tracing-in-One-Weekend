@@ -1,8 +1,8 @@
 const fs = require('fs');
 
 const format = "P3";
-const width = 256;
-const height = 256;
+const width = 500;
+const height = 500;
 const color = 255;
 
 function draw() {
@@ -13,8 +13,8 @@ function draw() {
 
 	for(let i = 0; i <= height; i++) {
 		for(let j = 0; j <= width; j++) {
-			let r = i / width;
-			let g = j / height;
+			let r = i / height;
+			let g = j / width;
 			let b = 0.2;
 			drawscript += `${Math.floor(r * 255)} ${Math.floor(g * 255)} ${Math.floor(b * 255)}\n`;
 		}
@@ -24,7 +24,7 @@ function draw() {
 }
 
 function write() {
-	fs.writeFileSync('./lab01_js/lab01.ppm', draw());
+	fs.writeFileSync('./javascript/lab01_js/lab01.ppm', draw());
 }
 
 write();
